@@ -1,0 +1,16 @@
+<div class="body">
+    <div class="row">
+        {{#each model}}
+        <div class="col-sm-6 col-lg-4">
+            <div class="card items">
+                <img class="card-img-top" src="{{img}}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{title}}</h5>
+                    <p class="card-text">{{content}}</p>
+                    <a href="#" class="btn btn-primary">Đọc</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
